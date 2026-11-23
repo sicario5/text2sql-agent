@@ -1,0 +1,21 @@
+# Text-to-SQL + RAG (Vanna's RAG engine lives in vanna.legacy in 2.x)
+vanna==2.0.2
+chromadb==1.5.9
+sqlglot==30.33.0
+
+# LLM providers (select one with LLM_PROVIDER)
+openai==3.57.0
+anthropic==2.12.0
+
+# Database
+SQLAlchemy==2.1.9
+psycopg[binary]==3.3.9
+
+# Data, UI, charts
+pandas==3.0.5
+plotly==7.1.0
+streamlit==1.67.0
+
+# Config
+python-dotenv==1.2.3
+PyYAML==6.0.3
